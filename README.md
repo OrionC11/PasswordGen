@@ -50,6 +50,9 @@ The following image shows the web application's appearance and functionality:
 
 ## Links
 
+[Github Repository](https://github.com/OrionC11/PasswordGen/)
+
+[Deployed Webpage](https://orionc11.github.io/PasswordGen/)
 
 
 
