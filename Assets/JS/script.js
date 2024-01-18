@@ -5,7 +5,6 @@ var lowercase = "abcdefghijklmnopqrstuvwxyz".split("")
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
 var numbers = "0123456789".split("")
 var specials = "!@#$%^&*-+.?".split("")
-var selections = []
 
 
 
@@ -23,14 +22,14 @@ function writePassword() {
 }
 
 function generatePassword() {
-  // The following variables take user input to create a password based on.
+ // This resets all the variables to a default value to allow new generations.
   var isLowercase = false;
   var isUppercase = false;
   var isNumbers = false;
   var isSpecials = false;
+  var selections = [];
   
-  
-  
+   // The following variables take user input to create a password based on.
   var isLowercase = confirm("Do you want lowercase letters?")
   var isUppercase = confirm("Do you want uppercase letters?")
   var isNumbers = confirm("Do you want Numbers?")
