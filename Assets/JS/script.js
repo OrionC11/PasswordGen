@@ -24,6 +24,13 @@ function writePassword() {
 
 function generatePassword() {
   // The following variables take user input to create a password based on.
+  var isLowercase = false;
+  var isUppercase = false;
+  var isNumbers = false;
+  var isSpecials = false;
+  
+  
+  
   var isLowercase = confirm("Do you want lowercase letters?")
   var isUppercase = confirm("Do you want uppercase letters?")
   var isNumbers = confirm("Do you want Numbers?")
